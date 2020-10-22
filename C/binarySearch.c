@@ -18,8 +18,12 @@ int binarySearch(int *A, int len, int value) {
 }
 
 int main(int argc, char const *argv[]){
-    int A[9] = {1,2,3,4,5,6,7,8,9};
+    int A[11] = {3, 5, 19, 27, 30, 43, 99, 187, 234, 351, 990};
+    int value;
 
-    printf("%d\n",binarySearch(A, 9, 8));
+    printf("Enter the amount you want to search\n");
+    scanf("%d", &value);
+
+    printf("%d\n",binarySearch(A, 11, value));
     return 0;
 }

@@ -16,14 +16,14 @@ int main()
 {
     student s;
     cout << "Enter information," << endl;
-    cout << "Enter name: ";
+    cout << "Enter Name: ";
     cin >> s.name;
-    cout << "Enter roll number: ";
+    cout << "Enter Roll Number: ";
     cin >> s.roll;
-    cout << "Enter marks: ";
+    cout << "Enter Marks: ";
     cin >> s.marks;
 
-    cout << "\nDisplaying Information," << endl;
+    cout << "\nDisplaying Information:" << endl;
     cout << "Name: " << s.name << endl;
     cout << "Roll: " << s.roll << endl;
     cout << "Marks: " << s.marks << endl;

@@ -1,0 +1,21 @@
+<h3 class="post-title entry-title">
+    Javascript: Remove Line Break and Double Spacing
+</h3>
+<div class="post-header">
+    <div class="post-header-line-1"></div>
+</div>
+<div class="post-body entry-content">
+    For remove break line use:&nbsp; <span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><span
+            style="font-size: x-small;">text.replace(/(\r\n|\n|\r)/gm," ");</span></span><br>
+    For remove double spacing use:&nbsp; <span style="font-size: x-small;"><span
+            style="font-family: &quot;Courier New&quot;,Courier,monospace;">text.replace(/\s{2,}/g, '
+            ');</span></span><br>
+    <br>
+    <b>Sample code: </b><br>
+    <pre class="brush: java">
+        <script type="text/javascript" src="rbline.js"></script>
+    <textarea id="text" cols="70" rows="10">Place text here...</textarea><br>
+    <button onclick="rbline();">Process</button><br>
+    <textarea id="hasil" cols="70" rows="10">Result here...</textarea>
+    </pre>
+</div>
